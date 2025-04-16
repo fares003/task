@@ -104,15 +104,15 @@ and Sandals & Casual Slip-Ons (Casual Sandals, Flip Flops, Comfort Sandals).`,
 
       {/* Notification Settings */}
       <div className="flex flex-col space-y-3 md:space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="flex flex-col sm:flex-row sm:items-center  gap-2">
           <p className="text-gray-800 text-sm md:text-base">Order updates.</p>
           <ToggleSwitch/>
         </div>
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="flex flex-col sm:flex-row sm:items-center  gap-2">
           <p className="text-gray-800 text-sm md:text-base">Low stock alerts.</p>
           <ToggleSwitch/>
         </div>
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="flex flex-col sm:flex-row sm:items-center  gap-2">
           <p className="text-gray-800 text-sm md:text-base">Platform announcements.</p>
           <ToggleSwitch/>
         </div>
